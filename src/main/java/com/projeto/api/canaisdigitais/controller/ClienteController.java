@@ -28,7 +28,7 @@ public class ClienteController {
 
         DadosEndereco dadosEndereco = cepService.consultaCep(dados.cep());
 
-         var cliente = new Cliente(dados, dadosEndereco);
+        var cliente = new Cliente(dados, dadosEndereco);
 
         clienteRepository.save(cliente);
 
