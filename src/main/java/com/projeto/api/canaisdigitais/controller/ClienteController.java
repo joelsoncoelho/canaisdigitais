@@ -56,5 +56,4 @@ public class ClienteController {
         return ResponseEntity.ok(new DadosDetalhamentoCliente(cliente));
     }
 
-
 }
