@@ -1,8 +1,7 @@
 package com.projeto.api.canaisdigitais.domain.endereco;
 
-public record DadosRegiao(
+public record Mesorregiao(
         Long id,
-        String sigla,
         String nome
 ) {
 }
